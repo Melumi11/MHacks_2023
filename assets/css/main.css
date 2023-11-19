@@ -2904,23 +2904,23 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #f18793;
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: #cb82cd;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #8e7ac8;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #7a9ee4;
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #65bcf3;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3112,10 +3112,10 @@ input, select, textarea {
 			}
 
 			#header.alt > * {
-				-moz-transition: opacity 1s ease;
-				-webkit-transition: opacity 1s ease;
-				-ms-transition: opacity 1s ease;
-				transition: opacity 1s ease;
+				-moz-transition: opacity 0.5s ease;
+				-webkit-transition: opacity 0.5s ease;
+				-ms-transition: opacity 0.5s ease;
+				transition: opacity 0.5s ease;
 				-moz-transition-delay: 0s;
 				-webkit-transition-delay: 0s;
 				-ms-transition-delay: 0s;
@@ -3124,10 +3124,10 @@ input, select, textarea {
 			}
 
 			#header.alt .logo {
-				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
-				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
-				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
-				transition: opacity 1.25s ease, transform 0.5s ease;
+				-moz-transition: opacity 0.75s ease, -moz-transform 0.5s ease;
+				-webkit-transition: opacity 0.75s ease, -webkit-transform 0.5s ease;
+				-ms-transition: opacity 0.75s ease, -ms-transform 0.5s ease;
+				transition: opacity 0.75s ease, transform 0.5s ease;
 				-moz-transition-delay: 0s;
 				-webkit-transition-delay: 0s;
 				-ms-transition-delay: 0s;
@@ -3387,7 +3387,7 @@ input, select, textarea {
 		}
 
 		#main .box {
-			border-color: #dddddd;
+			border-color:#dddddd;
 		}
 
 		#main input[type="submit"],
