@@ -3099,14 +3099,14 @@ input, select, textarea {
 			}
 
 			#header.alt > * {
-				-moz-transition: opacity 3s ease;
-				-webkit-transition: opacity 3s ease;
-				-ms-transition: opacity 3s ease;
-				transition: opacity 3s ease;
-				-moz-transition-delay: 0.5s;
-				-webkit-transition-delay: 0.5s;
-				-ms-transition-delay: 0.5s;
-				transition-delay: 0.5s;
+				-moz-transition: opacity 1s ease;
+				-webkit-transition: opacity 1s ease;
+				-ms-transition: opacity 1s ease;
+				transition: opacity 1s ease;
+				-moz-transition-delay: 0s;
+				-webkit-transition-delay: 0s;
+				-ms-transition-delay: 0s;
+				transition-delay: 0s;
 				opacity: 1;
 			}
 
@@ -3382,9 +3382,9 @@ input, select, textarea {
 		#main input[type="button"],
 		#main button,
 		#main .button {
-			background-color: transparent;
+			background-color: #94618f;
 			box-shadow: inset 0 0 0 1px #dddddd;
-			color: #636363 !important;
+			color: #fdfdfd !important;
 		}
 
 			#main input[type="submit"]:hover,
@@ -3392,7 +3392,7 @@ input, select, textarea {
 			#main input[type="button"]:hover,
 			#main button:hover,
 			#main .button:hover {
-				background-color: rgba(222, 222, 222, 0.25);
+				background-color: #7000d4;
 			}
 
 			#main input[type="submit"]:active,
@@ -3400,7 +3400,7 @@ input, select, textarea {
 			#main input[type="button"]:active,
 			#main button:active,
 			#main .button:active {
-				background-color: rgba(222, 222, 222, 0.5);
+				background-color: #7000d4;
 			}
 
 			#main input[type="submit"].icon:before,
@@ -3417,7 +3417,7 @@ input, select, textarea {
 			#main button.primary,
 			#main .button.primary {
 				background-color: #8cc9f0;
-				color: #ffffff !important;
+				color: #94618f !important;
 				box-shadow: none;
 			}
 
@@ -3442,7 +3442,7 @@ input, select, textarea {
 				#main input[type="button"].primary.icon:before,
 				#main button.primary.icon:before,
 				#main .button.primary.icon:before {
-					color: #ffffff !important;
+					color: #94618f !important;
 				}
 
 		#main label {

@@ -11,10 +11,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
+		<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+		<link rel="manifest" href="favicons/site.webmanifest">
+		<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
 	</head>
 	<body class="is-preload">
 
@@ -24,8 +27,7 @@
 				<!-- Header -->
 					<header id="header" class="alt">
 						<h1>ClusterShield</h1>
-						<p>A multi-model fraud detection suite<br />
-						built to redefine customer security.</p>
+						<p>A multi-model fraud detection suite built to <b>redefine</b> customer security.</p>
 					</header>
 
 				<!-- Nav -->
@@ -81,53 +83,53 @@
 						<!-- Second Section -->
 							<section id="second" class="main special">
 								<header class="major">
-									<h2>Ipsum consequat</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<h2>How It Works</h2>
+									<p>We employ a blend of advanced machine learning models, offering customers<br />
+										a highly effective tool for identifying fraudulent activities.</p>
 								</header>
+								<h2>Our Models</h2>
 								<ul class="statistics">
 									<li class="style1">
-										<span class="icon solid fa-code-branch"></span>
-										<strong>5,120</strong> Etiam
+										<strong>KNN</strong>K-nearest neighbors is highly effective in both the complex relationships seen in fraud detection, as well as in adapting to changing patterns.
 									</li>
 									<li class="style2">
-										<span class="icon fa-folder-open"></span>
-										<strong>8,192</strong> Magna
+										<strong>LR</strong>Logistic Regression works exceptionally well with linearly separable data and is highly interpretable, making it a staple in our toolkit.
 									</li>
 									<li class="style3">
-										<span class="icon solid fa-signal"></span>
-										<strong>2,048</strong> Tempus
+										<strong>DT</strong>Decision Tree is extremely simple and interpretable and generally handles both linear and non-linear data well.
 									</li>
 									<li class="style4">
-										<span class="icon solid fa-laptop"></span>
-										<strong>4,096</strong> Aliquam
-									</li>
-									<li class="style5">
-										<span class="icon fa-gem"></span>
-										<strong>1,024</strong> Nullam
+										<strong>RF</strong>Random Forest is known for its high predictive accuracy and its ability to handle non-linear data effectively.
 									</li>
 								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
 							</section>
 
 						<!-- Get Started -->
-							<section id="cta" class="main special">
+							<section id="cta" class="main">
 								<header class="major">
-									<h2>Congue imperdiet</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<h2>Use our program</h2>
+									<p>⚠ Currently Under Development ⚠</p>
 								</header>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button primary">Get Started</a></li>
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
+								<form action="/submit_form" method="post">
+									<!-- Email Input -->
+									<label for="email">Email:</label>
+									<input type="email" id="email" name="email" required> <br>
+										
+									<!-- Radio Buttons -->
+									<label>Algorithm:</label>
+									<input type="radio" id="knn" name="type" value="KNN" checked>
+									<label for="male">Only K-Nearest Neighbors</label>
+									<input type="radio" id="female" name="type" value="weighted">
+									<label for="female">Multi-model Weighted Average</label> 
+
+									<!-- Textarea -->
+									<br><br>
+									<label for="fileInput">Upload file (CSV only):</label>
+									<input type="file" id="fileInput" name="fileInput">
+							
+									<!-- Submit Button -->
+									<input type="submit" value="Submit">
+								</form>
 							</section>
 
 					</div>
@@ -145,7 +147,7 @@
 								<dd>500 S State St, 
 									Ann Arbor, MI 48109, USA</dd>
 								<dt>Email</dt>
-								<dd><a href="mailto:123@gmail.com">123@gmail.com</a></dd>
+								<dd><a href="mailto:123@gmail.com">team@clustershields.tech</a></dd>
 							</dl>
 						</section>
 						<p class="copyright">Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
