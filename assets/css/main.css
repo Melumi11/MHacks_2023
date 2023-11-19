@@ -2368,6 +2368,13 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
+	#rectangularImage {
+		border-radius: 8px; /* or any value you prefer for rounded corners */
+		width: 300px; /* example width */
+		height: 150px; /* example height */
+	}
+	
+	
 
 		.image img {
 			border-radius: 8px;
@@ -3001,13 +3008,11 @@ input, select, textarea {
 			display: inline-block;
 			margin-left: 4em;
 			padding: 0.65em;
-			border-radius: 100%;
 			border: solid 4px;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
 				width: 16em;
 			}
 
